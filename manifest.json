@@ -1,0 +1,20 @@
+{
+   "name": "Crop extension",
+   "description": "Keep browser running in the background even when closed",
+   "version": "1.0",
+   "manifest_version": 2,
+   "browser_action": {
+         "default_popup": "Crop.html",
+         "default_icon": "./assets/image/backround-image/128px.png",
+              "default_locale": "en"
+       },
+
+       "icons": { "16": "./assets/image/backround-image/16px.png",
+                  "48": "./assets/image/backround-image/48px.png",
+                 "128": "./assets/image/backround-image/128px.png" },
+
+   "permissions": [
+      "background"
+   ],
+   "converted_from_user_script": true
+}
